@@ -8,9 +8,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Static Methods are associated with the class itself and don't need an instance to be used.\r Query Methods are instance methods that check and return information about the state of an object without modifying it.",
   "dependencies": {
-    "mongoose": "^8.6.0"
+    "mongoose": "^8.6.1",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
